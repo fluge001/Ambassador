@@ -1,0 +1,135 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    background-image: url(salad.png);
+    background-repeat: no-repeat;
+    background-size: 500%;
+}
+
+h1 {
+    color: orange;
+    padding-top: 16px ;
+    padding-left: 6px;
+    text-align: left;
+    display: inline;
+}
+
+.links {
+    float: right;
+    margin-top: 0px;
+    color: grey;
+    text-align: right;
+    padding-top: 16px;
+    margin-right: 10px;
+}
+
+.links a {
+    color: grey;
+    text-decoration: none;
+}
+
+.boxed {
+    margin-bottom: 20px;
+    background-color: black;
+    height: 50px;
+    width: 100%
+}
+
+.menulinks {
+    position: relative;
+    text-align: right;
+    color: #231709;
+    padding-right: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.saladbanner {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+
+.saladborder {
+    border-radius: 20px;
+    background: rgba(105,105,105, 0.7);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    /*transform: translate(-45%, -35%); */
+}
+
+.greatsalad {
+    text-align: center;
+    font-size: 20px;
+    color: #C08640;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+}
+
+.menulinks a {
+    color: #231709;
+    text-decoration: none;
+}
+
+.menulinks a:visited{
+  color:#231709
+}
+
+.testmenuchild {
+    color: white;
+}
+
+.border1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+    background: rgba(105,105,105, 0.5);
+    padding: 20px;
+    height: 100%
+}
+
+.border2 {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 40px;
+    border-radius: 30px;
+    background: rgba(105,105,105, 0.5);
+    padding: 20px;
+    height: 100%
+}
+
+.title {
+    font-size: 20px;
+}
+
+.description {
+    font-size: 17.3px;
+    color: #e28f04;
+}
+
+.buildchild {
+    color: white;
+    vertical-align: middle;
+}
+
+.parent {
+    width: 100%;
+}
+
+.childside {
+    float: left;
+    width: 50%;
+}
+
+.buildsize {
+    font-size: 18.5px;
+}
